@@ -146,3 +146,24 @@ DROP COLUMN
     PropertyAddress, 
     SaleDate;
 
+/*==============================================================
+  7️⃣ Update SalePrice to Remove '$' and ',' Characters
+==============================================================*/
+
+UPDATE Nashville_Data..NashvilleHousing
+SET SalePrice = CASE
+    -- Remove dollar sign and commas if SalePrice contains '$'
+    WHEN SalePrice LIKE '%$%' THEN 
+        REPLACE(
+            SUBSTRING(SalePrice, CHARINDEX('$', SalePrice) + 1, LEN(SalePrice)),
+            ',', 
+            ''
+        )
+    -- Remove commas if SalePrice contains ',' but no '$'
+    WHEN SalePrice LIKE '%,%' THEN 
+        REPLACE(SalePrice, ',', '')
+    -- Leave values that are already clean
+    ELSE SalePrice
+END;
+
+
