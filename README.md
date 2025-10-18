@@ -45,3 +45,30 @@ It demonstrates SQL skills such as standardizing formats, splitting columns, and
 | **Split Address Components** | Extracted `Address`, `City`, and `State` into separate columns. |
 | **Removed Duplicates** | Applied `ROW_NUMBER()` with `PARTITION BY` to delete duplicate rows. |
 | **Normalized Columns** | Standardized values and updated column names. |
+
+---
+
+### 📊 Data Analysis on Cleaned Nashville Housing Data
+
+This script demonstrates **analytical queries** performed on the cleaned Nashville Housing dataset.  
+It highlights insights such as property sale trends, average sale prices, active owners, and top streets.
+
+> **File:** Nashville Housing Project Script (Data Analyzing).sql
+
+### 🧩 Key Analysis Techniques
+| Technique | Description |
+|-----------|--------------|
+| **Aggregations & Grouping** | Used `COUNT()`, `AVG()`, and `SUM()` to summarize property data. |
+| **Ordering & Ranking** | Used `ORDER BY` and `TOP N` queries to find least sale prices and top streets. |
+| **CTEs (Common Table Expressions)** | Simplified multi-step queries, e.g., extracting street names or filtering top streets. |
+| **CASE Statements** | Standardized and transformed data, e.g., removing `$` and `,` from sale prices. |
+| **Filtering & Conditional Logic** | Applied `WHERE` and `HAVING` clauses for targeted analysis. |
+
+### 📈 Example Insights
+- Least property sale prices.  
+- Top streets with the most properties sold.  
+- Owners with multiple properties sold.  
+- Average sale prices for single-family homes.  
+
+---
+
