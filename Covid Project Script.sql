@@ -1,6 +1,6 @@
 ------------------------------------------------------------
 -- COVID Data Exploration Project
--- Author: [Your Name]
+-- Author: Matthew Glass
 -- Description: Analyzing COVID-19 cases, deaths, and vaccinations
 ------------------------------------------------------------
 
@@ -189,5 +189,6 @@ JOIN Covid_Data..CovidVaccinations cv
     ON cv.date = cd.date 
    AND cv.location = cd.location
 WHERE cd.continent IS NOT NULL;
+
 
 
