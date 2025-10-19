@@ -34,7 +34,7 @@ It demonstrates SQL techniques for cleaning, aggregating, and analyzing data.
 
 ### 🧠 Overview
 This project focuses on cleaning and transforming a **housing dataset** to prepare it for analysis.  
-It demonstrates SQL skills such as standardizing formats, splitting columns, and removing duplicates.
+It demonstrates SQL skills such as splitting columns, and removing duplicates.
 
 > **File:** Nashville Housing Project Script (Data Cleaning).sql
 
@@ -44,14 +44,13 @@ It demonstrates SQL skills such as standardizing formats, splitting columns, and
 | **Populated Missing Data** | Filled missing values using SQL functions and joins. |
 | **Split Address Components** | Extracted `Address`, `City`, and `State` into separate columns. |
 | **Removed Duplicates** | Applied `ROW_NUMBER()` with `PARTITION BY` to delete duplicate rows. |
-| **Normalized Columns** | Standardized values and updated column names. |
 
 ---
 
 ### 📊 Data Analysis on Cleaned Nashville Housing Data
 
 This script demonstrates **analytical queries** performed on the cleaned Nashville Housing dataset.  
-It highlights insights such as property sale trends, average sale prices, active owners, and top streets.
+It highlights insights such as property sale trends, average sale prices and streets with the most house sales.
 
 > **File:** Nashville Housing Project Script (Data Analyzing).sql
 
