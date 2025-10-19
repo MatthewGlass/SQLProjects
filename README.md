@@ -65,7 +65,7 @@ It highlights insights such as property sale trends, average sale prices, active
 | **Filtering & Conditional Logic** | Applied `WHERE` and `HAVING` clauses for targeted analysis. |
 
 ### 📈 Example Insights
-- Least property sale prices.  
+- Lowest property sale prices.  
 - Top streets with the most properties sold.  
 - Owners with multiple properties sold.  
 - Average sale prices for single-family homes.  
