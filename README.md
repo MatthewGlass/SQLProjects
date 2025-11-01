@@ -76,7 +76,7 @@ It highlights insights such as property sale trends, average sale prices and str
 ### 🧠 Overview
 This project demonstrates SQL techniques used to **filter and aggregate sales data** for the **BikeStore Tableau Dashboard**.  
 The extracted dataset includes orders, customers, products, stores, and sales reps metrics.  
-The corresponding Tableau dashboard can be found in the **[tableau-project repository]([../tableau-project](https://tv.bell.ca/watch/channel-TSN2H))**.
+The corresponding Tableau dashboard can be found in the tableau-project repository.
 
 > **File:** BikeStoreProject.sql
 
