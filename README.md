@@ -1,7 +1,7 @@
 # 🧮 SQL Data Analytics Portfolio
 
-This repository showcases two SQL projects designed to demonstrate skills in **data cleaning**, **data exploration**, and **analytical querying** using **Microsoft SQL Server (T-SQL)**.  
-Both projects focus on transforming data into meaningful insights through practical SQL techniques.
+This repository showcases SQL projects designed to demonstrate skills in **data cleaning**, **data exploration**, and **analytical querying** using **Microsoft SQL Server (T-SQL)**.  
+The projects focus on transforming data into meaningful insights through practical SQL techniques.
 
 ---
 
@@ -71,3 +71,24 @@ It highlights insights such as property sale trends, average sale prices and str
 
 ---
 
+## 🚴 Project 3: BikeStore SQL Data Extraction
+
+### 🧠 Overview
+This project demonstrates SQL techniques used to **filter and aggregate sales data** for the **BikeStore Tableau Dashboard**.  
+The extracted dataset includes orders, customers, products, stores, and sales reps metrics.  
+The corresponding Tableau dashboard can be found in the **[tableau-project repository]([../tableau-project](https://tv.bell.ca/watch/channel-TSN2H))**.
+
+> **File:** BikeStoreProject.sql
+
+### 🧩 Key SQL Techniques
+| Technique | Description |
+|-----------|--------------|
+| **Joins** | Combined orders, customers, products, categories, stores, and sales staff tables. |
+| **Aggregations** | Summed quantities and calculated revenue per order. |
+| **Aliasing** | Used column aliases for clarity in exported datasets. |
+| **Grouping** | Grouped data by orders, customers, products, categories, stores, and sales reps. |
+
+### 📈 Example Insights
+- Total revenue and units sold per order.  
+- Customer and sales rep performance metrics.  
+- Revenue by product, category, and store.
